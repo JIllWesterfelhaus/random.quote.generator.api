@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
     <meta charset="UTF-8">
@@ -11,17 +12,25 @@
         <div id="quote-box">
             <div id="text">
                 <i class="fa fa-quote-left randomTxtColor" 
-                aria-hidden="true" />
+                aria-hidden="true" >
                 <span id="quoteText"
-                class="randomTxtColor" />
+                class="randomTxtColor" >
                 <br />
                 <span id="quoteAuthor"
-                class="randomTxtColor" />
+                class="randomTxtColor" >
             </div>
 
-
+            <div id="buttonBox">
+                <a id="twitter-share-button"
+                target="blank"
+                href="twitter.com/intent/tweet" data-text="custom share text">
+                <i class="fa fa-twitter randomBgcolor" aria-hidden="true"></i>
+            </a>
+            <button id="new-quote" class="cta randomBgcolor">New Quote</button>
+            </div>
         </div>
     </div>
 
+<script src="scripts.js"></script>
 </body>
 </html>
