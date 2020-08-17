@@ -1,3 +1,5 @@
+alert('hello');
+
 const colorRandomizer = () => {
 const myColors = ['#3498db', '#2ecc71', '#9b59b6', '#e74c3c', '#f1c40f']
 const randomNum=

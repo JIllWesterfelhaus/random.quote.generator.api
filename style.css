@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(142, 183, 189);
+}
+
 .randomBgColor {
     transition: background-color 1s ease;
 
